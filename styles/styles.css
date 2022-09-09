@@ -504,37 +504,30 @@ header{
             height: 50rem;
         }
 /*RESPONSIVE CONTACTO*/
-.mapaContacto{
-    width: 30rem;
-    height: 30rem;
-    border-radius: 5rem;
-}
-.contactoRedes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.formContacto{
-    font-size: var(--texto-mediano);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80rem;
-}
+        .mapaContacto{
+            width: 30rem;
+            height: 30rem;
+            border-radius: 5rem;
+        }
+        .contactoRedes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .formContacto{
+            font-size: var(--texto-mediano);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 50rem;
+        }
 
-.consultaCuadro{
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    height: 10rem;
-    width: 30rem;
-}
-
-
-
-        
-
-
-
+        .consultaCuadro{
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            height: 10rem;
+            width: 30rem;
+        }
 }
 
