@@ -41,6 +41,7 @@ body{
     color: #4b0172;
     min-height: 100%;
     text-align: center;
+    background: linear-gradient(220.55deg, #FF9D7E 5%, #4D6AD0 80%);
 }
 
 .grid-body {
