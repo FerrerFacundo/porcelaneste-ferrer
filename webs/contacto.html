@@ -54,19 +54,29 @@
         </section>
         </section>
         <!--FORMULARIO-->
-        <section class="sectionContacto">
-            <section class="consultaTitulo">
-                <h2>Dejame tu consulta por Mail</h2>
-            </section>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+        <section class="consultaTitulo">
+            <h2>Dejame tu consulta por Mail</h2>
         </section>
+        <div class="container">
+            <form class="row">
+                <div class="col-2">
+                    <label for="nombreInput">Nombre</label>
+                    <input type="text" class="form-control" id="nombreInput" placeholder="Escribe tu nombre">
+                </div>
+                <div class="col-2">
+                    <label for="emailInput">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                </div>
+                <div class="col-12">
+                    <label for="consultaInput">Consulta</label>
+                    <input type="text" class="form-control" id="consultaInput" placeholder="Consulta">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+            </form>
+        </div>
+        
     </main>
     <!--FOOTER-->
 

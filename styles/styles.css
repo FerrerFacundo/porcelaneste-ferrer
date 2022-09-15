@@ -37,7 +37,7 @@ html {
 
 body {
     font-family: var(--fuente-principal);
-    font-size: var(--texto-chico);
+    font-size: var(--texto-mediano);
     color: #4b0172;
     min-height: 100%;
     text-align: center;
@@ -456,24 +456,13 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
-.formContacto {
-    font-size: var(--texto-mediano);
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    width: 80rem;
+.formulario{
+    padding-top: 1rem;
+    
 }
-
-.consultaCuadro {
-    padding-top: 2rem;
-    display: flex;
-    height: 10rem;
-    width: 30rem;
-}
-
-
 
 
 /*RESPONSIVE*/
@@ -613,6 +602,7 @@ header {
 
     .ulPedidos {
         padding-top: 4rem;
+        padding-left: 4rem;
     }
 
     .mapa {
@@ -631,21 +621,5 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .formContacto {
-        font-size: var(--texto-mediano);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 50rem;
-    }
-
-    .consultaCuadro {
-        padding-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        height: 10rem;
-        width: 30rem;
     }
 }
