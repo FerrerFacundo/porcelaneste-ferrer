@@ -17,7 +17,7 @@
 
     /*Tamano Fuente*/
     --texto-grande: 4rem;
-    --texto-mediano: 2.2rem;
+    --texto-mediano: 1.4rem;
     --texto-chico: 1.6rem;
 
 }
@@ -39,7 +39,7 @@
 
 .container{
     max-width: 70rem;
-    padding: 0px;
+    padding: 0rem;
 }
 
 #navlocal{
@@ -50,26 +50,25 @@
 
 .nav-link{
     color: var(--colortexto);
-    font-size: 20;
+    font-size: 20px;
     font-weight: bold;
     font-family: var(--fuente-principal);
 }
 
-/*MAIN*/
-
+/*MAIN GRAL*/
 main{
     background-color: #e1d4c7;
 }
-/*
-.carousel-item{
-    max-width: 40rem;
-    max-height: 40rem;
-    min-width: 75rem;
-}*/
+
+/*-------------------------------------*/
+/*INDEX*/
+/*-------------------------------------*/
+
 .carousel-inner{
     border-radius: 5rem;
     border: solid;
     border-color: var(--colornavar);
+    margin: 3rem 0rem 8.6rem 0rem;
 }
 
 #carouselExampleCaptions{
@@ -78,22 +77,151 @@ main{
 
 .txt-slide{
     color: var(--colorprimario);
+
+}
+/*-------------------------------------*/
+/*TRABAJO*/
+/*-------------------------------------*/
+
+.videoTrabajo {
+    height: 20rem;
+    border-radius: 5rem;
 }
 
-/*FOOTER*/
+.row{
+    padding: 1rem 0rem 0.5rem 0rem;
+    margin: 0%;
+}
 
+.text-trabajo-titulo{
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    font-weight: bold;
+}
+
+.title-trabajo{
+    font-weight: bold;
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+}
+
+.text-trabajo{
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+}
+
+/*-------------------------------------*/
+/*PEDIDOS*/
+/*-------------------------------------*/
+
+.video-pedidos{
+    height: 30rem;
+    border-radius: 5rem;
+}
+
+.ul-pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-self: center;
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    font-size: var(--texto-mediano);
+
+}
+
+.div-pedidos{
+    padding: 6.1rem 0rem 6rem 0rem;
+}
+
+/*-------------------------------------*/
+/*GALERIA*/
+/*-------------------------------------*/
+
+#galeria img{
+    width: 100%;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+#galeria img:hover {
+    border: 5px solid var(--colornavar);
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+
+}
+
+/*-------------------------------------*/
+/*CONTACTO*/
+/*-------------------------------------*/
+
+.mapaContacto {
+    width: 40rem;
+    height: 40rem;
+    border-radius: 5rem;
+}
+
+.contactoRedes {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.articleRedes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 5rem;
+    font-size: var(--texto-mediano);
+}
+
+.logoRedes {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.sectionContacto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.consultaTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.formulario{
+    padding-top: 1rem;   
+}
+
+
+
+
+/*-------------------------------------*/
+/*FOOTER GRAL*/
+/*-------------------------------------*/
 footer{
     background-color: #957DAD;
+    height: 100%;
 }
 
-footer p{
+.footerp{
     color: #e1d4c7;
     font-weight: bold;
-    border: solid;
+    margin: 0rem;
+    padding-top: 0.5rem;
 }
 
 .diviconos{
-    border: solid;
+    margin-bottom: 1rem;
 
 }
 
