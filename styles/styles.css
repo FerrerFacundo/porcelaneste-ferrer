@@ -40,12 +40,13 @@
 .container{
     max-width: 70rem;
     padding: 0rem;
+    min-height: 100%;
 }
 
 #navlocal{
     padding: 0rem;
     margin: 0rem;
-
+    border-bottom: solid var(--colornavar)
 }
 
 .nav-link{
@@ -55,9 +56,14 @@
     font-family: var(--fuente-principal);
 }
 
+#navlocal{
+    position: t;
+}
+
 /*MAIN GRAL*/
-main{
-    background-color: #e1d4c7;
+body{
+    background: linear-gradient(0deg, rgba(149,125,173,1) 0%, rgba(225,212,199,1) 50%, rgba(149,125,173,1) 100%);
+    min-height: 100vh;
 }
 
 /*-------------------------------------*/
@@ -103,11 +109,13 @@ main{
     font-weight: bold;
     font-family: var(--fuente-principal);
     color: var(--colorprimario);
+    margin-top: 2rem;
 }
 
 .text-trabajo{
     font-family: var(--fuente-principal);
     color: var(--colorprimario);
+    margin-top: 2rem;
 }
 
 /*-------------------------------------*/
@@ -203,18 +211,17 @@ main{
 }
 
 
-
-
 /*-------------------------------------*/
 /*FOOTER GRAL*/
 /*-------------------------------------*/
 footer{
-    background-color: #957DAD;
-    height: 100%;
+    /*background-color: #957DAD;*/
+    border-top: solid var(--colornavar);
+
 }
 
 .footerp{
-    color: #e1d4c7;
+    color: var(--colorprimario);
     font-weight: bold;
     margin: 0rem;
     padding-top: 0.5rem;
@@ -226,7 +233,29 @@ footer{
 }
 
 .iconos{
-    color: #e1d4c7;
+    color: var(--colorprimario);
     text-decoration: none;
     padding: 0.1rem;
+}
+
+
+
+
+    /*RESPONSIVE CONTACTO*/
+
+@media screen and (max-width: 768px) {
+
+    .mapaContacto {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 5rem;
+        margin: 0%;
+    }
+
+    .contactoRedes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
 }
