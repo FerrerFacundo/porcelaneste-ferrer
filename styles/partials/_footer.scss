@@ -1,0 +1,26 @@
+/*-------------------------------------*/
+/*FOOTER GRAL*/
+/*-------------------------------------*/
+
+footer{
+    border-top: solid var(--colornavar);
+    .diviconos{
+        margin-bottom: 1rem;
+        .iconos{
+            color: var(--colorprimario);
+            text-decoration: none;
+            padding: 0.1rem;
+        }
+    }
+}
+
+footer p{
+    color: var(--colorprimario);
+    font-weight: bold;
+    margin: 0rem;
+    padding-top: 0.5rem;
+}
+
+
+
+

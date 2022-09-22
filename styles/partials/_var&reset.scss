@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+/*VARIABLES*/
+:root {
+    /*Colores*/
+    --colorprimario: #4b0172;
+    --colornavar: #846b9d;
+    --colortexto: #e1d4c7;
+
+    /*Espacio*/
+    --espacio-largo: 6rem;
+    --espacio-medio: 2.4rem;
+    --espacio-chico: 2rem;
+
+    /*Fuente*/
+    --fuente-principal: 'Montserrat', sans-serif;
+
+    /*Tamano Fuente*/
+    --texto-grande: 4rem;
+    --texto-mediano: 1.4rem;
+    --texto-chico: 1.6rem;
+
+}
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

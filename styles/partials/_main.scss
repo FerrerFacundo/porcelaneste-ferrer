@@ -1,0 +1,148 @@
+/*-------------------------------------*/
+/*MAIN Y CONTAINER PARA TODAS LAS WEBS*/
+/*-------------------------------------*/
+body{
+    background: linear-gradient(0deg, rgba(149,125,173,1) 0%, rgb(153, 135, 116) 50%, rgba(149,125,173,1) 100%);
+    min-height: 100vh;
+    .container{
+        max-width: 70rem;
+        padding: 0rem;
+        min-height: 100%;
+    }
+}
+
+
+/*-------------------------------------*/
+/*INDEX*/
+/*-------------------------------------*/
+
+.carousel-inner{
+    border-radius: 5rem;
+    border: solid;
+    border-color: var(--colornavar);
+    margin: 3rem 0rem 8.6rem 0rem;
+        .txt-slide{
+            color: var(--colorprimario);
+        }
+}
+
+/*-------------------------------------*/
+/*TRABAJO*/
+/*-------------------------------------*/
+.row{
+    padding: 1rem 0rem 0.5rem 0rem;
+    margin: 0%;
+    .videoTrabajo {
+        height: 20rem;
+        border-radius: 5rem;
+    }
+}
+
+.text-trabajo-titulo{
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    font-weight: bold; 
+    
+}
+
+.text-trabajo{
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    margin-top: 2rem;
+}
+
+/*-------------------------------------*/
+/*PEDIDOS*/
+/*-------------------------------------*/
+
+.ul-pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-self: center;
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    font-size: var(--texto-mediano);
+
+}
+
+.div-pedidos{
+    padding: 6.1rem 0rem 6rem 0rem;
+        .video-pedidos{
+        height: 30rem;
+        border-radius: 5rem;
+    }
+}
+
+/*-------------------------------------*/
+/*GALERIA*/
+/*-------------------------------------*/
+
+#galeria img{
+    width: 100%;
+    height: 20rem;
+    margin: 0.5rem;
+    &:hover {
+        border: 5px solid var(--colornavar);
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
+    }
+}
+
+/*-------------------------------------*/
+/*CONTACTO*/
+/*-------------------------------------*/
+
+.contactoRedes {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    .mapaContacto {
+        width: 40rem;
+        height: 40rem;
+        border-radius: 5rem;
+    }
+    .articleRedes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+        margin-left: 5rem;
+        font-size: var(--texto-mediano);
+        .logoRedes {
+            max-height: 50px;
+            max-width: 50px;
+        }
+    }
+
+}
+
+.consultaTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+    /*RESPONSIVE CONTACTO*/
+
+@media screen and (max-width: 768px) {
+
+    .mapaContacto {
+        width: 20rem;
+        height: 20rem;
+        border-radius: 5rem;
+        margin: 0%;
+    }
+
+    .contactoRedes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+}
