@@ -2,8 +2,6 @@
 /*MAIN Y CONTAINER PARA TODAS LAS WEBS*/
 /*-------------------------------------*/
 body{
-    background: linear-gradient(0deg, rgba(149,125,173,1) 0%, rgb(153, 135, 116) 50%, rgba(149,125,173,1) 100%);
-    min-height: 100vh;
     .container{
         max-width: 70rem;
         padding: 0rem;
@@ -11,6 +9,13 @@ body{
     }
 }
 
+main{
+    background-color: var(--colortexto);
+}
+
+.section-color-oscuro{
+    background-color: var(--colornavar);
+}
 
 /*-------------------------------------*/
 /*INDEX*/
@@ -20,10 +25,23 @@ body{
     border-radius: 5rem;
     border: solid;
     border-color: var(--colornavar);
-    margin: 3rem 0rem 8.6rem 0rem;
+    margin: 3rem 0rem 3rem 0rem;
         .txt-slide{
             color: var(--colorprimario);
         }
+}
+
+.img-hola-index{
+    height: 20rem;
+    margin: 0rem;
+
+}
+.p-index-hola{
+
+    font-family: var(--fuente-principal);
+    font-size: var(--texto-mediano);
+    color: var(--colortexto);
+    margin-top: 1rem;
 }
 
 /*-------------------------------------*/
@@ -45,10 +63,17 @@ body{
     
 }
 
-.text-trabajo{
+.title-trabajo{
     font-family: var(--fuente-principal);
     color: var(--colorprimario);
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+
+.text-gral{
+    font-family: var(--fuente-principal);
+    color: var(--colorprimario);
+    margin-top: 1rem;
 }
 
 /*-------------------------------------*/

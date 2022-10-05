@@ -2,11 +2,16 @@
 
 /*LOGO Y NAV*/
 
+header{
+    background-color: var(--colornavar);
+}
+
 .logo{
     width: 8rem;         
 } 
 
 #navlocal{
+    background-color: var(--colornavar);
     padding: 0rem;
     margin: 0rem;
     border-bottom: solid var(--colornavar);

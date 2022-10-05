@@ -12,9 +12,9 @@
   /*Fuente*/
   --fuente-principal: "Montserrat", sans-serif;
   /*Tamano Fuente*/
-  --texto-grande: 4rem;
-  --texto-mediano: 1.4rem;
-  --texto-chico: 1.6rem;
+  --texto-grande: 2rem;
+  --texto-mediano: 1.2rem;
+  --texto-chico: 0.5rem;
 }
 
 /*Reset*/
@@ -26,11 +26,16 @@
 
 /*HEADER*/
 /*LOGO Y NAV*/
+header {
+  background-color: var(--colornavar);
+}
+
 .logo {
   width: 8rem;
 }
 
 #navlocal {
+  background-color: var(--colornavar);
   padding: 0rem;
   margin: 0rem;
   border-bottom: solid var(--colornavar);
@@ -45,14 +50,18 @@
 /*-------------------------------------*/
 /*MAIN Y CONTAINER PARA TODAS LAS WEBS*/
 /*-------------------------------------*/
-body {
-  background: linear-gradient(0deg, rgb(149, 125, 173) 0%, rgb(153, 135, 116) 50%, rgb(149, 125, 173) 100%);
-  min-height: 100vh;
-}
 body .container {
   max-width: 70rem;
   padding: 0rem;
   min-height: 100%;
+}
+
+main {
+  background-color: var(--colortexto);
+}
+
+.section-color-oscuro {
+  background-color: var(--colornavar);
 }
 
 /*-------------------------------------*/
@@ -62,10 +71,22 @@ body .container {
   border-radius: 5rem;
   border: solid;
   border-color: var(--colornavar);
-  margin: 3rem 0rem 8.6rem 0rem;
+  margin: 3rem 0rem 3rem 0rem;
 }
 .carousel-inner .txt-slide {
   color: var(--colorprimario);
+}
+
+.img-hola-index {
+  height: 20rem;
+  margin: 0rem;
+}
+
+.p-index-hola {
+  font-family: var(--fuente-principal);
+  font-size: var(--texto-mediano);
+  color: var(--colortexto);
+  margin-top: 1rem;
 }
 
 /*-------------------------------------*/
@@ -86,10 +107,16 @@ body .container {
   font-weight: bold;
 }
 
-.text-trabajo {
+.title-trabajo {
   font-family: var(--fuente-principal);
   color: var(--colorprimario);
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.text-gral {
+  font-family: var(--fuente-principal);
+  color: var(--colorprimario);
+  margin-top: 1rem;
 }
 
 /*-------------------------------------*/
@@ -182,7 +209,7 @@ body .container {
 /*FOOTER GRAL*/
 /*-------------------------------------*/
 footer {
-  border-top: solid var(--colornavar);
+  background-color: var(--colornavar);
 }
 footer .diviconos {
   margin-bottom: 1rem;
