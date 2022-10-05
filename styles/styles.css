@@ -48,20 +48,34 @@ header {
 }
 
 /*-------------------------------------*/
-/*MAIN Y CONTAINER PARA TODAS LAS WEBS*/
+/*MAIN, CONTAINER Y GENERALES PARA TODAS LAS WEBS*/
 /*-------------------------------------*/
+/*TAMANO ESTANDAR DE TODAS LAS WEB*/
 body .container {
   max-width: 70rem;
   padding: 0rem;
   min-height: 100%;
 }
 
+/*BACKROUND DE TODAS LAS WEB*/
 main {
   background-color: var(--colortexto);
 }
 
+/*SECTION OSCURO*/
 .section-color-oscuro {
   background-color: var(--colornavar);
+}
+
+/*COLOR Y LETRA DE CUALQUIER BOTON DE LAS WEB*/
+.boton-gral {
+  background-color: var(--colornavar);
+  color: var(--colortexto);
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorprimario);
 }
 
 /*-------------------------------------*/
@@ -77,16 +91,15 @@ main {
   color: var(--colorprimario);
 }
 
-.img-hola-index {
-  height: 20rem;
-  margin: 0rem;
-}
-
 .p-index-hola {
   font-family: var(--fuente-principal);
   font-size: var(--texto-mediano);
   color: var(--colortexto);
   margin-top: 1rem;
+}
+.p-index-hola .img-hola-index {
+  height: 20rem;
+  margin: 0rem;
 }
 
 /*-------------------------------------*/
@@ -133,7 +146,7 @@ main {
 }
 
 .div-pedidos {
-  padding: 6.1rem 0rem 6rem 0rem;
+  padding: 3.1rem 0rem 1rem 0rem;
 }
 .div-pedidos .video-pedidos {
   height: 30rem;
